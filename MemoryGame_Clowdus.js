@@ -77,20 +77,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionTwoId = chosenCardsId[1]
     
     if(optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute('src', 'images/blank.png')
-      cards[optionTwoId].setAttribute('src', 'images/blank.png')
+      cards[optionOneId].setAttribute('src', 'Images/Memory Game/blank.png')
+      cards[optionTwoId].setAttribute('src', 'Images/Memory Game/blank.png')
       alert('The second card cannot be the first card.')
     }
     else if (chosenCards[0] === chosenCards[1]) {
       alert('They match!')
-      cards[optionOneId].setAttribute('src', 'images/white.png')
-      cards[optionTwoId].setAttribute('src', 'images/white.png')
+      cards[optionOneId].setAttribute('src', 'Images/Memory Game/white.png')
+      cards[optionTwoId].setAttribute('src', 'Images/Memory Game/white.png')
       cards[optionOneId].removeEventListener('click', flipACard)
       cards[optionTwoId].removeEventListener('click', flipACard)
       cardsWon.push(chosenCards)
     } else {
-      cards[optionOneId].setAttribute('src', 'images/blank.png')
-      cards[optionTwoId].setAttribute('src', 'images/blank.png')
+      cards[optionOneId].setAttribute('src', 'Images/Memory Game/blank.png')
+      cards[optionTwoId].setAttribute('src', 'Images/Memory Game/blank.png')
       alert('Try again. You can do it.')
     }
     chosenCards = []
