@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function createABoard() {
     for (let i = 0; i < arrayOfCards.length; i++) {
       const card = document.createElement('img')
-      card.setAttribute('src', 'imageFilePath.png')
+      card.setAttribute('src', 'Images/Memory Game/blank.png')
       card.setAttribute('data-id', i)
       card.addEventListener('click', flipACard)
       grid.appendChild(card)
