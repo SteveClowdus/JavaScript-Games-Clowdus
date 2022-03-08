@@ -1,0 +1,31 @@
+div {
+                  width: 100px;
+                  height: 100px;
+                  background-color: red;
+                  animation-name: example;
+                  animation-duration: infinite;
+                }
+
+                @keyframes example {
+                  from {background-color: red;}
+                  to {background-color: yellow;}
+                }
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
