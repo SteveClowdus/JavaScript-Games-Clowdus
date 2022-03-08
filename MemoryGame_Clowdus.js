@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
     chosenCards = []
     chosenCardsId = []
     resultDisplay.textContent = cardsWon.length
-    if  (cardsWon.length === cardArray.length/2) {
+    if  (cardsWon.length === arrayOfCards.length/2) {
       resultDisplay.textContent = 'You found them all! You win! Congratulations!'
     }
   }
@@ -104,9 +104,9 @@ document.addEventListener('DOMContentLoaded', () => {
   //flip the card
   function flipACard() {
     let cardId = this.getAttribute('data-id')
-    chosenCards.push(cardArray[cardId].name)
+    chosenCards.push(arrayOfCards[cardId].name)
     chosenCardsId.push(cardId)
-    this.setAttribute('src', cardArray[cardId].img)
+    this.setAttribute('src', arrayOfCards[cardId].img)
     if (chosenCards.length ===2) {
       setTimeout(checkForAMatch, 500)
     }
