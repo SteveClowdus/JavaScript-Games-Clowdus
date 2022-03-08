@@ -2,52 +2,52 @@ document.addEventListener('DOMContentLoaded', () => {
   //All of the card-related options.
   const arrayOfCards = [
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: 'a',
+      img: 'Images/Memory Game/a.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: 'b',
+      img: 'Images/Memory Game/b.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: 'c',
+      img: 'Images/Memory Game/c.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: '1',
+      img: 'Images/Memory Game/1.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: '2',
+      img: 'Images/Memory Game/2.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: '3',
+      img: 'Images/Memory Game/3.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: 'a',
+      img: 'Images/Memory Game/a.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: 'b',
+      img: 'Images/Memory Game/b.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: 'c',
+      img: 'Images/Memory Game/c.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: '1',
+      img: 'Images/Memory Game/1.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: '2',
+      img: 'Images/Memory Game/2.png'
     },
     {
-      name: '',
-      img: 'imageFilePath.png'
+      name: '3',
+      img: 'Images/Memory Game/3.png'
     }
   ]
 
