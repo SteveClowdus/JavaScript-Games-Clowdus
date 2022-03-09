@@ -111,15 +111,15 @@ document.addEventListener('DOMContentLoaded', () => {
     squares[i].onclick = () => {
       // If the square below your current square is taken, the square above your current square can be taken.
       if (squares[i + 7].classList.contains('taken') &&!squares[i].classList.contains('taken')) {
-        if (currentPlayer == 1) {
+        if (theCurrentPlayer  == 1) {
           squares[i].classList.add('taken')
           squares[i].classList.add('player-one')
-          currentPlayer = 2
+          theCurrentPlayer  = 2
           displayTheCurrentPlayer.innerHTML = theCurrentPlayer
-        } else if (currentPlayer == 2){
+        } else if (theCurrentPlayer  == 2){
           squares[i].classList.add('taken')
           squares[i].classList.add('player-two')
-          currentPlayer = 1
+          theCurrentPlayer  = 1
           displayTheCurrentPlayer.innerHTML = theCurrentPlayer        
         } 
       } else alert('That can\'t go here.')
